@@ -1,0 +1,35 @@
+
+body {
+    background-image: radial-gradient(at center center,#022399 27%,#00145e 86%);
+}
+#bg {
+    /* background-image: url(../assets/wallpaper.webp); */
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.25;
+}
+.mestre-do-sabor {
+    background: white;
+    color: blue;
+    font-weight: bold;
+    padding: 0 10px;
+}
+input#email{
+    height: 50px !important;
+    font-size: 20px !important;
+}
+
+.info-form {
+    color: #cdcbcb;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0 0;
+    max-width: 650px;
+    display: inline-flex;
+}
