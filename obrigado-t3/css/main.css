@@ -1,0 +1,80 @@
+#section-1 .parallax {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    overflow: hidden;
+    width: 100%;
+    background: radial-gradient(at center center,#022399 27%,#00145e 86%);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.fs-115{
+    font-size: 1.15rem!important;
+}
+#section-2 #whatsapp {
+    background-color: #0aa50a;
+    width: 100%;
+}
+
+#section-3 {
+    zoom: 1.3;
+}
+#section-3.bg-gray{
+    background-color: #eee;
+}
+
+#featured-event .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    background-color: #044426 !important;
+}
+
+#featured-event .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+#featured-event .icon-link>.bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    fill: currentcolor;
+    transition: transform .25s ease-in-out;
+}
+
+#featured-event .icon-link:hover>.bi {
+    transform: translate(.25rem);
+}
+
+
+
+/* Media Queries */
+@media screen and (max-width: 959px) and (min-width: 768px) {}
+
+@media screen and (max-width: 767px) {
+    #section-1 .parallax {
+        padding: 25px 0;
+    }
+    #section-1 .parallax .bg-light.p-5{
+        padding: 15px !important;
+    }
+    #section-1 .parallax .bg-light.p-5 .py-5{
+        padding: 15px 0 !important;
+    }
+    #section-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px) {}
